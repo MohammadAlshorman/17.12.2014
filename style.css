@@ -156,6 +156,20 @@ footer p {
 
 
 
+.image-container {
+    display: flex;
+    gap: 20px;
+}
 
+.image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
 
-
+.image-container img:hover {
+    transform: scale(1.2) rotate(10deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
